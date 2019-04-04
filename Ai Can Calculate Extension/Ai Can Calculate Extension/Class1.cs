@@ -35,7 +35,7 @@ namespace Ai_Can_Calculate_Extension
             str = str.Replace("over", "/");
 
             //Executable code here
-
+            
         }
     }
 }
