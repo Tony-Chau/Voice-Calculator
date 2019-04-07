@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.1": {
+      "AiCanCalculateExtension/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/AiCanCalculate.dll": {}
+        }
+      },
       "AvalonEdit/5.0.3": {
         "type": "package",
         "compile": {
@@ -440,6 +449,17 @@
     }
   },
   "libraries": {
+    "AiCanCalculateExtension/1.0.0": {
+      "sha512": "yjcaRcfkpONUTwuCYqb1TH2JLRCfzso6qMLc4+55o3qdsjw8+eXNakOpR69afImoui/LCOQGgUY36cvLbWnzCw==",
+      "type": "package",
+      "path": "aicancalculateextension/1.0.0",
+      "files": [
+        "aicancalculateextension.1.0.0.nupkg.sha512",
+        "aicancalculateextension.nuspec",
+        "lib/AiCanCalculate.dll",
+        "lib/AiCanCalculate.pdb"
+      ]
+    },
     "AvalonEdit/5.0.3": {
       "sha512": "O7qf3H3SP2VrQujwmzvb3hJ+lw4rNWcZkpMH8T0qb/cA1UccoJIZ9qL/+DM7bws9l8Hxnyk7GUYVFrCSZeH+uA==",
       "type": "package",
@@ -976,6 +996,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "AiCanCalculateExtension >= 1.0.0 <= 1.0.0",
       "UiPath >= 9.0.6736.25739 <= 9.0.6736.25739",
       "UiPath.Excel.Activities >= 2.5.2 <= 2.5.2",
       "UiPath.Mail.Activities >= 1.3.0 <= 1.3.0",
@@ -998,6 +1019,11 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "AiCanCalculateExtension": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0, 1.0.0]"
+          },
           "UiPath": {
             "include": "Runtime",
             "target": "Package",

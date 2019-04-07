@@ -1,0 +1,6 @@
+C:\Users\tony_\OneDrive\Desktop\Github stuff\Ai-can-calculate\AiCanCalculate\AiCanCalculate\bin\Debug\AiCanCalculate.dll
+C:\Users\tony_\OneDrive\Desktop\Github stuff\Ai-can-calculate\AiCanCalculate\AiCanCalculate\bin\Debug\AiCanCalculate.pdb
+C:\Users\tony_\OneDrive\Desktop\Github stuff\Ai-can-calculate\AiCanCalculate\AiCanCalculate\obj\Debug\AiCanCalculate.csprojAssemblyReference.cache
+C:\Users\tony_\OneDrive\Desktop\Github stuff\Ai-can-calculate\AiCanCalculate\AiCanCalculate\obj\Debug\AiCanCalculate.csproj.CoreCompileInputs.cache
+C:\Users\tony_\OneDrive\Desktop\Github stuff\Ai-can-calculate\AiCanCalculate\AiCanCalculate\obj\Debug\AiCanCalculate.dll
+C:\Users\tony_\OneDrive\Desktop\Github stuff\Ai-can-calculate\AiCanCalculate\AiCanCalculate\obj\Debug\AiCanCalculate.pdb

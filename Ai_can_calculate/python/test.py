@@ -1,16 +1,4 @@
-import speech_recognition as sr
-import pyaudio
-
-def SpeechToText():
-    r = sr.Recognizer()
-    with sr.Microphone() as source:
-        audio = r.listen(source)
-    try:
-        return r.recognize_google(audio)
-    except:
-        return ""
-
-
+import pdb
 def StringEval(word):
     #Plus
     word = word.replace("plus", "+")
@@ -23,14 +11,19 @@ def StringEval(word):
     word = word.replace("multiply", "*")
     word = word.replace("times", "*")
     word = word.replace("x", "*")
+    word = word.replace("X", "*")
     #Divide
     word = word.replace("divide by", "/")
+    #word = word.replace("÷", "/")
     word = word.replace("over", "/")
     word = word.replace("divide", "/")
-    #back-up
+    #pdb.set_trace()
     word = word.replace(",", "")
-    word = word.replace(" ", "")    
+    word = word.replace(" ", "")
+    answer = eval(word)
     try:
-        return str(eval(word))
+        return str(answer)
     except:
         return "error"
+
+print(StringEval("5 * 5"))

@@ -126,6 +126,15 @@
         "C:\\Users\\tony_\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.35.dll",
         "C:\\Users\\tony_\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.36.dll"
       ]
+    },
+    {
+      "Package": {
+        "Id": "AiCanCalculateExtension",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\tony_\\.nuget\\packages\\aicancalculateextension/1.0.0\\lib/AiCanCalculate.dll"
+      ]
     }
   ],
   "Conflicts": [
@@ -139,6 +148,11 @@
     }
   ],
   "ResolvedDependencies": {
+    "AiCanCalculateExtension": {
+      "Id": "AiCanCalculateExtension",
+      "Version": "1.0.0",
+      "Dependencies": []
+    },
     "AvalonEdit": {
       "Id": "AvalonEdit",
       "Version": "5.0.3",
