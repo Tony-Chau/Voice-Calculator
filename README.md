@@ -1,6 +1,6 @@
-# Ai-can-calculate
+# Voice-Calculator
 
-An AI program that recognises your voice base on your mathematical calculations. The AI responds back with the answer. Please do not say "Computer what is 0 divided by 0" as you will receive a different response.  
+An RPA program that recognises your voice base on your mathematical calculations. The program will recognise your request and respond back with the answer base on your question. Please do not say "Computer what is 0 divided by 0" as you will receive a different response.  
 
 Go to <a href="https://github.com/Tony-Chau/Yubi">this repository</a> for instruction on how to import it
 
